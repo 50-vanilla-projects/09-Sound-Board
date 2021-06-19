@@ -23,7 +23,8 @@ h3 {
     font-size: 1.3rem;
 }
 main {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(230px, 1fr));
     justify-content: space-around;
     align-items: center;
 }
