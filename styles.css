@@ -21,6 +21,7 @@ h3 {
     width: 180px;
     text-align: center;
     font-size: 1.3rem;
+    cursor: pointer;
 }
 main {
     display: grid;
@@ -37,3 +38,4 @@ input {
     justify-content: space-between;
     align-items: center;
 }
+
