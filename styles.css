@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16pt;
+}
+header {
+    text-align: center;
+}
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+h2 {
+    font-size: 1.7rem;
+}
+h3 {
+    width: 180px;
+    text-align: center;
+    font-size: 1.3rem;
+}
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+input {
+    border-radius: 50%;
+}
+.songbird {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
