@@ -25,9 +25,10 @@ h3 {
 }
 main {
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(230px, 1fr));
+    grid-template-columns: repeat(auto-fit,minmax(230px, 1fr));
     justify-content: space-around;
     align-items: center;
+    row-gap: 30px;
 }
 input {
     border-radius: 50%;
